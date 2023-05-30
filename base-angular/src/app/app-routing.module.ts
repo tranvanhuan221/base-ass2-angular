@@ -6,12 +6,14 @@ import { LayoutAdminComponent } from './layouts/layout-admin/layout-admin.compon
 import { DashboardComponent } from './pages/admin/dashboard/dashboard.component';
 import { ProductsComponent } from './pages/admin/products/products.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component'; 
+import { LienheComponent } from './pages/lienhe/lienhe.component';
 
 const routes: Routes = [
   {
     path: '', component: LayoutClientComponent,
     children: [
       { path: '', component: HomeComponent }, 
+      { path: 'lienhe', component: LienheComponent }, 
     ]
   },
   {
