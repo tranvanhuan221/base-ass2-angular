@@ -7,12 +7,14 @@ import { DashboardComponent } from './pages/admin/dashboard/dashboard.component'
 import { ProductsComponent } from './pages/admin/products/products.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component'; 
 import { LienheComponent } from './pages/lienhe/lienhe.component';
+import { PagdetailComponent } from './pages/pagdetail/pagdetail.component';
 
 const routes: Routes = [
   {
     path: '', component: LayoutClientComponent,
     children: [
       { path: '', component: HomeComponent }, 
+      { path: 'pagedetail', component: PagdetailComponent }, 
       { path: 'lienhe', component: LienheComponent }, 
     ]
   },
