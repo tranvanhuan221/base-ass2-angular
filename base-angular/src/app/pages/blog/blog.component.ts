@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent {
-
+constructor(){
+  console.log('ahihi')
+}
 }
