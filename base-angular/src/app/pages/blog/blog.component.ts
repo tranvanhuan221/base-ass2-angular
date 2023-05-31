@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class BlogComponent {
 constructor(){
-  console.log('ahihi')
+  console.log('ahih dempi')
 }
 }
