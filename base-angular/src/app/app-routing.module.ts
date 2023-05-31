@@ -8,6 +8,7 @@ import { ProductsComponent } from './pages/admin/products/products.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component'; 
 import { LienheComponent } from './pages/lienhe/lienhe.component';
 import { PagdetailComponent } from './pages/pagdetail/pagdetail.component';
+import { BlogComponent } from './pages/blog/blog.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,7 @@ const routes: Routes = [
       { path: '', component: HomeComponent }, 
       { path: 'pagedetail', component: PagdetailComponent }, 
       { path: 'lienhe', component: LienheComponent }, 
+      { path: 'lienhe', component: BlogComponent }, 
     ]
   },
   {

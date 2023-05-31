@@ -15,11 +15,13 @@ import { DashboardComponent } from './pages/admin/dashboard/dashboard.component'
 import { ProductsComponent } from './pages/admin/products/products.component';
 import { LienheComponent } from './pages/lienhe/lienhe.component';
 import { PagdetailComponent } from './pages/pagdetail/pagdetail.component';
+import { BlogComponent } from './pages/blog/blog.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
-    HeaderComponent, FooterComponent, LayoutClientComponent, LayoutAdminComponent, NotfoundComponent, HomeComponent, DashboardComponent, ProductsComponent, LienheComponent, PagdetailComponent
+    HeaderComponent, FooterComponent, LayoutClientComponent, LayoutAdminComponent, NotfoundComponent, HomeComponent, DashboardComponent, ProductsComponent, LienheComponent, PagdetailComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
