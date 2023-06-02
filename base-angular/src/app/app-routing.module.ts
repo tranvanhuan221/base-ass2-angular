@@ -8,6 +8,8 @@ import { ProductsComponent } from './pages/admin/products/products.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component'; 
 import { LienheComponent } from './pages/lienhe/lienhe.component';
 import { PagdetailComponent } from './pages/pagdetail/pagdetail.component';
+import { DetaillocationComponent } from './pages/location/detaillocation/detaillocation.component'
+import { LocationComponent } from './pages/location/location.component';
 
 const routes: Routes = [
   {
@@ -15,7 +17,9 @@ const routes: Routes = [
     children: [
       { path: '', component: HomeComponent }, 
       { path: 'pagedetail', component: PagdetailComponent }, 
-      { path: 'lienhe', component: LienheComponent }, 
+      { path: 'lienhe', component: LienheComponent },
+      { path: 'locantion', component: LocationComponent },
+      { path: 'locantion/detail/:id', component: DetaillocationComponent },  
     ]
   },
   {

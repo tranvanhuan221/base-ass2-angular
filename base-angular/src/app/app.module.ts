@@ -15,6 +15,8 @@ import { DashboardComponent } from './pages/admin/dashboard/dashboard.component'
 import { ProductsComponent } from './pages/admin/products/products.component';
 import { LienheComponent } from './pages/lienhe/lienhe.component';
 import { PagdetailComponent } from './pages/pagdetail/pagdetail.component';
+import { DetaillocationComponent } from './pages/location/detaillocation/detaillocation.component'
+import { LocationComponent } from './pages/location/location.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { PagdetailComponent } from './pages/pagdetail/pagdetail.component';
     DashboardComponent, 
     ProductsComponent,  
     LienheComponent,
-    PagdetailComponent
+    PagdetailComponent,
+    LocationComponent,
+    DetaillocationComponent
   ],
   imports: [
     BrowserModule,
